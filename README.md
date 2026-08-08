@@ -2,7 +2,7 @@
 
 Proyek ini adalah sistem kendali dispenser pengisian air otomatis yang dirancang khusus untuk membantu penyandang disabilitas tunanetra. Menggunakan mikrokontroler ESP32, sistem ini memberikan panduan audio (suara) interaktif untuk setiap aksi, fitur pengaman untuk mencegah air tumpah atau luka bakar, dan logika pencampuran air presisi tinggi.
 
-## 🌟 Fitur Utama
+##  Fitur Utama
 
 - **Panduan Audio Interaktif:** Menggunakan modul DFPlayer Mini untuk membacakan instruksi, konfirmasi pilihan, dan status dispenser.
 - **Sistem Konfirmasi Ganda (Double-Check):** Pengguna harus menekan tombol yang sama dua kali dalam 10 detik untuk mengonfirmasi pilihan suhu air, mencegah insiden salah tekan.
@@ -15,7 +15,7 @@ Proyek ini adalah sistem kendali dispenser pengisian air otomatis yang dirancang
 - **Auto-Instruction (Idle):** Jika pengguna meletakkan gelas tetapi diam selama 6 detik, sistem otomatis membacakan petunjuk penggunaan alat.
 - **Proteksi *Water Hammer*:** Jeda 200ms antara pembukaan valve dan penyalaan pompa untuk menjaga keawetan selang dan mesin pompa.
 
-## 🛠️ Kebutuhan Perangkat Keras (Hardware)
+##  Kebutuhan Perangkat Keras (Hardware)
 
 1. Mikrokontroler ESP32
 2. Modul DFPlayer Mini + MicroSD Card (Format FAT32) + Speaker 3W
@@ -26,7 +26,7 @@ Proyek ini adalah sistem kendali dispenser pengisian air otomatis yang dirancang
 7. 5x Push Button (Panas, Normal, Dingin, Hangat, Info)
 8. Power Supply (PSU) dengan output 12V dan 5V independen
 
-## 📌 Pemetaan Pin (Pinout) ESP32
+##  Pemetaan Pin (Pinout) ESP32
 
 | Komponen | Pin ESP32 | Keterangan |
 | :--- | :--- | :--- |
@@ -43,9 +43,7 @@ Proyek ini adalah sistem kendali dispenser pengisian air otomatis yang dirancang
 | **DFPlayer TX** | GPIO 16 (RX2) | UART Serial2 |
 | **DFPlayer RX** | GPIO 17 (TX2) | UART Serial2 |
 
-## 🎵 Direktori Audio SD Card
-
-Pastikan file audio di-*copy* satu per satu secara berurutan ke dalam SD Card (direktori utama) tanpa menggunakan folder:
+##  Direktori Audio SD Card
 
 - `001.wav` - Pilihan Air Panas
 - `002.wav` - Pilihan Air Dingin
@@ -64,11 +62,5 @@ Pastikan file audio di-*copy* satu per satu secara berurutan ke dalam SD Card (d
 - `015.wav` - Audio info ekstra / Suara Unlock Berhasil
 - `016.wav` - Pemanasan selesai, air panas siap digunakan
 - `017.wav` - Air sedang dipanaskan, mohon tunggu 3 menit
-
-## ⚙️ Cara Instalasi & Penggunaan
-
-1. Rangkai perangkat keras sesuai dengan tabel *Pinout* di atas.
-2. Buka kode ini menggunakan Arduino IDE.
-3. Pastikan Anda telah menginstal *library* `DFRobotDFPlayerMini` via Library Manager.
 4. Sesuaikan nilai di bagian `PENGATURAN WAKTU & DURASI` pada kode jika Anda ingin mempercepat/memperlambat waktu pengisian (azaz black pencampuran).
 5. Unggah (Upload) kode ke board ESP32 Anda.
