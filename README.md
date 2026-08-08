@@ -34,7 +34,6 @@ Proyek ini adalah sistem kendali dispenser pengisian air otomatis yang dirancang
 | **Tombol Normal** | GPIO 14 | Input (Pull-up ke GND) |
 | **Tombol Dingin** | GPIO 33 | Input (Pull-up ke GND) |
 | **Tombol Hangat** | GPIO 27 | Input (Pull-up ke GND) |
-| **Tombol Info** | GPIO 4 | Input (Pull-up ke GND) |
 | **Limit Switch** | GPIO 25 | Input (Pull-up ke GND) |
 | **Relay Valve Panas** | GPIO 19 | Output |
 | **Relay Valve Normal**| GPIO 21 | Output |
