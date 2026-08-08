@@ -59,7 +59,7 @@ Proyek ini adalah sistem kendali dispenser pengisian air otomatis yang dirancang
 - `012.wav` - Sistem dispenser pintar siap digunakan (Boot audio)
 - `013.wav` - Error: Gelas sudah penuh, silakan diambil
 - `014.wav` - Petunjuk penggunaan idle (Bentuk tombol segitiga, bulat, dst)
-- `015.wav` - Audio info ekstra / Suara Unlock Berhasil
+- `015.wav` - 
 - `016.wav` - Pemanasan selesai, air panas siap digunakan
 - `017.wav` - Air sedang dipanaskan, mohon tunggu 3 menit
 4. Sesuaikan nilai di bagian `PENGATURAN WAKTU & DURASI` pada kode jika Anda ingin mempercepat/memperlambat waktu pengisian (azaz black pencampuran).
