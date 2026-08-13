@@ -18,7 +18,7 @@ const unsigned long BATAS_WAKTU_KONFIRMASI = 10000;
 const unsigned long WAKTU_IDLE_PETUNJUK    = 6000;  
 
 // 4. FITUR PEMANASAN AIR (HEATER COOL-DOWN & INITIAL BOOT)
-const unsigned long WAKTU_PEMANASAN_AWAL   = 300000;  // 5 Menit saat pertama nyala
+const unsigned long WAKTU_PEMANASAN_AWAL   = 489442;
 const unsigned long WAKTU_PEMANASAN        = 180000;  // 3 Menit pemanasan
 const int BATAS_PENGGUNAAN_PANAS           = 2;       // REVISI: Jeda setelah 2x penggunaan
 const unsigned long WAKTU_RESET_COUNTER    = 3600000; // REVISI: 1 Jam (3.600.000 md) untuk reset counter
