@@ -11,7 +11,7 @@ Proyek ini adalah sistem kendali dispenser pengisian air otomatis yang dirancang
 - **Proteksi Cangkir Terlepas:** Jika gelas tersenggol atau ditarik sebelum pengisian selesai, sistem langsung menutup katup air (valve) dan mematikan pompa dalam hitungan milidetik.
 - **Sistem *Cool-down* Pemanas (Heater):** Setelah 2 kali penggunaan air panas/hangat, sistem akan otomatis terkunci selama 3 menit untuk memulihkan suhu pemanas. 
 - **Auto-Reset Pemanas (1 Jam):** Jika air panas hanya digunakan sebagian (1 kali) dan sistem didiamkan selama 1 jam, penghitung (counter) pemanasan akan otomatis direset kembali ke 0.
-- **Pemanasan Awal (Initial Boot):** Sistem akan mengunci tombol air panas selama 5 menit saat alat pertama kali dicolokkan ke listrik.
+- **Pemanasan Awal (Initial Boot):** Sistem akan mengunci tombol air panas selama ~8 menit saat alat pertama kali dicolokkan ke listrik.
 - **Kombinasi *Unlock* Rahasia:** Tahan tombol Panas + Dingin selama 5 detik untuk melewati (bypass) waktu tunggu pemanasan (khusus untuk teknisi/pengujian).
 - **Auto-Instruction (Idle):** Jika pengguna meletakkan gelas tetapi diam selama 6 detik, sistem otomatis membacakan petunjuk penggunaan alat.
 - **Proteksi *Water Hammer*:** Jeda 200ms antara pembukaan valve dan penyalaan pompa untuk menjaga keawetan selang dan mesin pompa.
